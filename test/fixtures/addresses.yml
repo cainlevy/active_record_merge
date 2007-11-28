@@ -1,0 +1,15 @@
+one:
+  id: 1
+  name: Home
+  addressable_id: 1
+  addressable_type: 'PluginTestModels::User'
+two:
+  id: 2
+  name: Work
+  addressable_id: 1
+  addressable_type: 'PluginTestModels::User'
+three:
+  id: 3
+  name: Home
+  addressable_id: 2
+  addressable_type: 'PluginTestModels::User'

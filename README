@@ -1,0 +1,6 @@
+ActiveRecordMerge
+=================
+
+Adds a merge! method to ActiveRecord instances. This method automatically merges attributes and associations from one record to another, destroying the other record when it's done.
+
+Copyright (c) 2007 Lance Ivy, released under the MIT license
