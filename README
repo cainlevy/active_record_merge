@@ -3,4 +3,6 @@ ActiveRecordMerge
 
 Adds a merge! method to ActiveRecord instances. This method automatically merges attributes and associations from one record to another, destroying the other record when it's done.
 
+Note: I don't know if I ever actually used this, but it's a good example of database testing in plugins so I like to keep it around.
+
 Copyright (c) 2007 Lance Ivy, released under the MIT license
