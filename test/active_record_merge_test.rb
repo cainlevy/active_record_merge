@@ -74,7 +74,8 @@ class ActiveRecordMergeTest < Test::Unit::TestCase
   def test_has_many_through
     # just test merging records with existing values
     users = services(:two).users
-    assert_changed '(services(:one, :reload => true).users & users) == users' do
+
+    assert_changed '(services(:one, :reload).users & users) == users' do
       assert_nothing_raised {services(:one).merge!(services(:two))}
     end
   end
