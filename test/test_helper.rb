@@ -14,6 +14,7 @@ ActiveRecord::Base.establish_connection('active_record_merge_test')
 ActiveRecord::Base.logger = Logger.new(File.dirname(__FILE__) + "/debug.log")
 
 # load the schema
+ActiveRecord::Migration.verbose = false
 load(File.dirname(__FILE__) + "/db/schema.rb")
 
 # load the ActiveRecord models
